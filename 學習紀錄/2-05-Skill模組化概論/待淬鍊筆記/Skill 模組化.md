@@ -6,7 +6,7 @@
 
 ## 各部位的職責
 
-![模組化 Skill 總覽：SKILL.md 放流程，各步驟按需使用 rules、templates 與 scripts](./檢查%20skill%20方法-assets/image%207.png)
+![模組化 Skill 總覽：SKILL.md 放流程，各步驟按需使用 rules、templates 與 scripts](../../../筆記/assets/c2m5-0/檢查%20skill%20方法-assets/image%207.png)
 
 | 部位 | 職責 | 使用方式 |
 | --- | --- | --- |
@@ -47,6 +47,6 @@
 ## 來源
 
 - 原筆記：〈檢查 skill 方法〉中的組成、資源分工與模組化段落。
-- [課程逐字稿：Skill 模組化概論](../../逐字稿/c2m5-0_Skill%20模組化概論%20—%20更好維護、理解和強化執行的%20Skill%20組織方法.txt)。
-- 影片截圖：`檢查 skill 方法-assets/image 7.png`。
+- [課程逐字稿：Skill 模組化概論](../來源/c2m5-0_Skill%20模組化概論%20—%20更好維護、理解和強化執行的%20Skill%20組織方法.txt)。
+- 影片截圖：`../../../筆記/assets/c2m5-0/檢查 skill 方法-assets/image 7.png`。
 

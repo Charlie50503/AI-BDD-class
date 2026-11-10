@@ -1,0 +1,601 @@
+{
+    "id": 7,
+    "chapterId": 2,
+    "journeyId": 4,
+    "name": "Skill 極速開發：如何展開有充分 Examples 的 Rule File？",
+    "premiumOnly": true,
+    "type": "video",
+    "createdAt": 1787723695731,
+    "reward": {
+        "exp": 201,
+        "coin": 0,
+        "subscriptionExtensionInDays": 0,
+        "journeyId": 0,
+        "externalRewardDescription": ""
+    },
+    "videoLength": "34:34",
+    "contentReady": true,
+    "hasTranscript": true,
+    "hasPrompts": true,
+    "attachmentCount": 0,
+    "content": [
+        {
+            "type": "video",
+            "url": "https://cdn.waterballsa.tw/ai-bdd/videos/c2m7-0/c2m7-0.m3u8",
+            "id": 0
+        },
+        {
+            "type": "text-workshop",
+            "data": {
+                "meta": {
+                    "course": "【VVIP 搶先看】AI x BDD：規格驅動全自動開發術",
+                    "lesson": "Skill 極速開發：如何展開有充分 Examples 的 Rule File？",
+                    "chapter": "【章節二】Skill 模組化工程：只會用 skill-creator？那你寫的 skill 不容易導入公司！因為超難維護和擴充！"
+                },
+                "type": "video",
+                "prompts": [
+                    {
+                        "at": 61.0,
+                        "key": "text",
+                        "code": ".agents/skills/skill-form-rule/SKILL.md",
+                        "title": "手工建第二支 Skill 的目錄與 SKILL.md"
+                    },
+                    {
+                        "at": 87.0,
+                        "key": "text",
+                        "code": ".agents/skills/skill-form-rule/rules/Rule File 撰寫格式規範.md",
+                        "title": "手工建規則檔，準備以終為始"
+                    },
+                    {
+                        "at": 162.0,
+                        "key": "text",
+                        "code": "Rule 1\n  Rule Name\n  Description\n    也許可以用 Markdown Table 呈現資料\n    也可以用 Code Section 來衍生呈現更多格式定義\n  Good Example\n    描述一下此情境 下述實際案例 為何是個 Good Example 強調重點就好\n    用具體的資料情境資料 完整展示一個好的示範 如何遵守此規則\n    可能是 Code section 花大篇幅描述資料 一到多筆資料\n    也可能是條列情境描述 或者混合兩者\n  Bad Example\n    描述一下下述資料案例 為何是一個 Bad Example 強調差異之處就好 或是違反之處就好\n    一個壞的示範如何違反此規則\n\nRule 2\n  Rule Name\n  ...",
+                        "title": "手寫 Rule File 的結構草稿（人工打，不叫 AI）。骨架是：一個檔案有一到多條 Rule，每條 Rule 有 Rule Name、多條 Description、Good Example、Bad Example。逐字打進去的說明文字如"
+                    },
+                    {
+                        "at": 324.0,
+                        "key": "text",
+                        "code": "上次我已經撰寫完了 這個 Skill 補我們現在這個 form-rule 的 Skill 這個 Skill 專門規範 Rules 底下的 Rule File 格式 我先描述了一些要點在這 請你取個例子 你認為一個 Rule file 可能會長怎樣 你認為有哪些問題想問我",
+                        "title": "開一個新的對話窗，切到會推理的模型，送出"
+                    },
+                    {
+                        "at": 384.0,
+                        "key": "text",
+                        "code": "Example 應該要有 要被包在 Code Section 裡面 不然難以區分",
+                        "title": "追加要求"
+                    },
+                    {
+                        "at": 408.0,
+                        "key": "text",
+                        "code": "好",
+                        "title": "同意 AI 先拿這個檔案當範例來寫"
+                    },
+                    {
+                        "at": 490.0,
+                        "key": "text",
+                        "code": "它這個 Rule 2 有 Bad Example 嗎",
+                        "title": "Preview 看起來 Rule 2 缺 Bad Example，質問"
+                    },
+                    {
+                        "at": 657.0,
+                        "key": "text",
+                        "code": "這版本沒問題 接下來優化它 請提出五個 你認為應該要加以規範 好讓 Rule 的表現能夠更好的 更好 更有彈性的提議",
+                        "title": "送出優化要求"
+                    },
+                    {
+                        "at": 744.0,
+                        "key": "text",
+                        "code": "如果採納 2 你怎麼改寫格式",
+                        "title": "送出"
+                    },
+                    {
+                        "at": 767.0,
+                        "key": "text",
+                        "code": "Rule File 可能會有很多 所以如果每個 Rule File 都要重複撰寫 這個 Rule Level Definition 那不是很煩嗎",
+                        "title": "質問重複問題"
+                    },
+                    {
+                        "at": 826.0,
+                        "key": "text",
+                        "code": "你會怎麼改 SKILL.md 多一區塊嗎",
+                        "title": "檢查，確認 AI 想把定義寫進 SKILL.md——那會汙染主檔、破壞按需載入。追問"
+                    },
+                    {
+                        "at": 847.0,
+                        "key": "text",
+                        "code": "那為何不把這部分 抽進去第二個 Rule File",
+                        "title": "給出反提案"
+                    },
+                    {
+                        "at": 876.0,
+                        "key": "text",
+                        "code": "採納 請執行 先寫 Rule File 就好",
+                        "title": "送出"
+                    },
+                    {
+                        "at": 1082.0,
+                        "key": "text",
+                        "code": "/skill-form-sop 幫我撰寫這個 SKILL.md 吧",
+                        "title": "用 24A 做出來的 Skill 來寫這一支的 SKILL.md（Reuse 上一步的產出）"
+                    },
+                    {
+                        "at": 1201.0,
+                        "key": "text",
+                        "code": "SOP 內容繁複 內容應該要精簡 必須要能夠按需載入 Rule File 就只有在 該讀這個 Rule File 的步驟中 才會提名這個檔案 這是為了把按需載入做到最佳化 如果每一步都提 Rule File 那 AI 就會混亂 到底哪一步才需要去讀取 才需要去 Lazy Load Rule File",
+                        "title": "送出精簡要求"
+                    },
+                    {
+                        "at": 1258.0,
+                        "key": "text",
+                        "code": "不對你這樣寫是錯的 請問你 Phase 1 的第 3 步第 4 步 這邊是在寫什麼 這個叫做前情提要嗎 這個叫預先 說明一些規則嗎 不對 SOP 就是要精簡 你是不是可以在撰寫的時候 或者就是在 Think 的時候 好比說我們直接把 Phase 1 的 2, 3, 4 全部都刪掉 然後我們直接進入到 Phase 2 的第一步的 Think 裡面 就可以去說你在思考的時候 直接去讀取那兩個規則檔案 讀取為什麼讀取 然後要思考什麼 能不能就是在真的需要用到的時候 再去讀那個規則檔案就好了 SOP 就變得很精簡了 沒有一大堆的前情提要了 你前情提要很多的 SOP 很多步驟不就會讓 AI 混亂說 我這個步驟到底有沒有要做任何的動作",
+                        "title": "送出更具體的 Feedback"
+                    },
+                    {
+                        "at": 1354.0,
+                        "key": "text",
+                        "code": "請將上述的這幾條我列出的規則 盤一下 如果我想要使用我們剛剛自己發明出來的 這個 /form-rule 的 Skill 來去優化我們的 SOP 多一個 Rule File 讓 SOP Skill 能夠幫忙把關就好了 你怎麼提案",
+                        "title": "檢查，確認不該每次遇到這個問題都手改 SOP——該讓 skillformsop（SOP 格式把關）自己有能力把關。送出"
+                    },
+                    {
+                        "at": 1426.0,
+                        "key": "text",
+                        "code": "Adopt 做吧",
+                        "title": "送出"
+                    },
+                    {
+                        "at": 1556.0,
+                        "key": "text",
+                        "code": "Good Example 能不能作為 Bad Example 的改良版 目前從這個 Good Example 中沒有看見 沒有看見它與 Bad Example 有對照",
+                        "title": "送出"
+                    },
+                    {
+                        "at": 1640.0,
+                        "key": "text",
+                        "code": "超級不應該要有這種專門在 Read 的 Phase",
+                        "title": "追加第四條規則的要求"
+                    },
+                    {
+                        "at": 1671.0,
+                        "key": "text",
+                        "code": "Go, Adopt 採納",
+                        "title": "送出"
+                    },
+                    {
+                        "at": 1735.0,
+                        "key": "text",
+                        "code": "最後呢 請你根據這個 Root 資料夾 裡面所有的 Rule File 去優化這個 SKILL.md",
+                        "title": "送出"
+                    },
+                    {
+                        "at": 1807.0,
+                        "key": "text",
+                        "code": "現在來抽 Rule 請判斷一下這個 SKILL.md 裡面哪些步驟可能會涉及更深的規則 值得去 Refine 展開規則 提案試試 規則的檔案之格式請參考（skill-form-rule）",
+                        "title": "開一個新的 session（避免 context 汙染），測試 skillformrule（Rule File 格式把關）"
+                    },
+                    {
+                        "at": 1888.0,
+                        "key": "text",
+                        "code": "抽 2-1 提案一下",
+                        "title": "送出"
+                    },
+                    {
+                        "at": 1895.0,
+                        "key": "text",
+                        "code": "直接寫檔",
+                        "title": "送出（再三強調要直接寫檔，並指定用 /formrule）"
+                    }
+                ],
+                "duration": 2074.0,
+                "sections": [
+                    {
+                        "at": 5.216,
+                        "kind": "hook",
+                        "title": "承接 SOP 進度,啟動 Rule 格式把關"
+                    },
+                    {
+                        "at": 162.983,
+                        "kind": "explain",
+                        "title": "構思 Rule File 結構與 Example 規範"
+                    },
+                    {
+                        "at": 315.266,
+                        "kind": "explain",
+                        "title": "與 AI 協作,產出首版 Rule File"
+                    },
+                    {
+                        "at": 566.616,
+                        "kind": "explain",
+                        "title": "顆粒度屬審美,Example 品質才關鍵"
+                    },
+                    {
+                        "at": 655.983,
+                        "kind": "explain",
+                        "title": "篩選 AI 提案,拍板 Rule Level 分級"
+                    },
+                    {
+                        "at": 890.049,
+                        "kind": "climax",
+                        "title": "兩份 Rule File 完稿,逐條驗收過關"
+                    },
+                    {
+                        "at": 1061.316,
+                        "kind": "explain",
+                        "title": "產出 SKILL.md,砍冗餘前情提要步驟"
+                    },
+                    {
+                        "at": 1339.683,
+                        "kind": "explain",
+                        "title": "讓 SOP Skill 自我把關精簡原則"
+                    },
+                    {
+                        "at": 1554.433,
+                        "kind": "explain",
+                        "title": "精修 Example 對照品質,套用優化"
+                    },
+                    {
+                        "at": 1766.2,
+                        "kind": "explain",
+                        "title": "開新 Session 實測,篩選待展開規則"
+                    },
+                    {
+                        "at": 1913.333,
+                        "kind": "climax",
+                        "title": "實戰展開類別圖 Rule,逐條驗收"
+                    },
+                    {
+                        "at": 2029.0,
+                        "kind": "cta",
+                        "title": "總結:兩個 Skill 互相成就的成果"
+                    }
+                ],
+                "paragraphs": [
+                    {
+                        "end": 35.75,
+                        "text": "好 那之前我們已經完成這個 SOP 的格式把關 好那接下來下一步呢 我們要做什麼 我們來看哦 下一步 當我們已經把關好流程 在 Markdown 裡面的 Skill 撰寫方式了 接下來呢 就是要來去把關規則 好如果今天每個規則 都要作為一個獨立的按需載入的檔案的話 那這個檔案的內容要怎麼寫 好我們現在呢 skill-form-sop 這個 Skill 裡面呢 已經有一個 Rule File",
+                        "start": 5.216
+                    },
+                    {
+                        "end": 66.25,
+                        "text": "我們把這個 rules 裡面的 每個檔案都把它稱之為是一個 Rule File 那這個 Rule File 呢 這樣子寫 它就滿足我們的要求了嗎 不一定嘛 只是我們現在還沒有把我們的要求寫清楚 所以我們才暫時容忍呢 這個檔案可以這樣子寫 好所以一樣 我們呢如果在 Skill 的模組化管理之下 下一步要做什麼 才可以把關這個 Rule File 的格式呢 很簡單嘛我們再開一個新的 Skill 所以我們現在呢 來開啟一個新的 Skill 好叫 skill-form——",
+                        "start": 35.75
+                    },
+                    {
+                        "end": 97.616,
+                        "text": "Form 後面是什麼 是 -rule 沒有錯 好 那 Rule 呢 我們就快速的把它的 SKILL.md 稍微打一下 好 寫完這個 form-rule 之後 接下來一樣呢 我們稍微來以終為始 來去描述這個 Skill File 所以呢我們先針對它的格式 一樣先人工開一下 rules 然後裡面呢一樣也有 Rule File 撰寫格式規範的這樣的一個 Markdown 文件",
+                        "start": 66.25
+                    },
+                    {
+                        "end": 129.016,
+                        "text": "那我們就直接拿這個檔案來當成是我們的一個範例 來跟 AI 溝通怎麼去寫這個 Form Rule 裡面的規範 所以接下來我們來思考的一件事情就是 如果你今天要用一個檔案裡面的篇幅 來去描述某一部分的格式規則 或是某一部分的規則它不一定是格式 它很有可能是很多的邏輯的規範 好比說如果今天是這個 plan-with-class-diagram 這個 Skill 那裡面的 Rule 呢 可能就可以寫說 好比你看嘛 它說理解需求與現有架構是階段一",
+                        "start": 97.616
+                    },
+                    {
+                        "end": 159.65,
+                        "text": "階段二是要產出類別圖提案 你可以跟 AI 講清楚 這個類別圖裡面的每一個類別的顆粒度是什麼 什麼樣的資訊可以放進去這個類別圖 什麼樣的資訊不應該放進去 如果這類別圖裡面塞了太多雜訊 那不是非常的困擾你嗎 你也很難跟 AI 溝通啊 所以說你這邊就會有一些衍生的規則 那規則它有些時候是在描述 邏輯 顆粒度 有些時候它是在描述格式",
+                        "start": 129.016
+                    },
+                    {
+                        "end": 162.983,
+                        "text": "那我們先針對這個 Rule File 去做一定的想象",
+                        "start": 159.65
+                    },
+                    {
+                        "end": 193.116,
+                        "text": "第一個 依照我的經驗 這個 Rule File 裡面一定要有很多條規則 它可能會有一到多條規則 所以你可能就會有 Rule 1 OK 然後裡面會有 Rule Name Rule 2 然後裡面會有 第二個規則的 Rule Name 你可能一個檔案裡面就會有多條規則 每條規則描述一個部分 好 那再來呢 每一個規則裡面要寫什麼 你可能會有多條 Description 的描述",
+                        "start": 162.983
+                    },
+                    {
+                        "end": 223.816,
+                        "text": "你可能會有多條 Description 的描述 然後使用 Bullet Point 來去描述多個要點 針對這個 Rule 的名字來去做延伸說明 那這 Description 的內容呢 也許「可以用 Markdown Table 呈現資料」 「也可以用 Code Section」 「來衍生呈現更多格式定義」 更多格式定義 這樣簡單的描述 不管 AI 聽不聽得懂 暫時都沒有關係",
+                        "start": 193.116
+                    },
+                    {
+                        "end": 255.833,
+                        "text": "因為等等你就是要請 AI 把它的理解講給你聽 所以你可以先快速的把你的想象打出來 好那 Rule 每一個規則 難道只有描述就好了嗎 我認為是不行的 我們通常都要在 Prompt 裡面 去給它多個舉例說明 我們稱此為 Few Shots 你要給它一些範例啦 Few Shots OK 那我們這邊呢至少給一個 Example 所以每一個規則都會有 Good Example 和 Bad Example OK 那 Good Example 和 Bad Example 裡面要寫什麼呢",
+                        "start": 223.816
+                    },
+                    {
+                        "end": 289.899,
+                        "text": "「用具體的資料情境資料」 「完整展示一個好的示範 如何遵守此規則」 「可能是 Code section 花大篇幅描述資料」 「一到多筆資料」 「也可能是條列情境描述 或者混合兩者」 等等讓 AI 舉例 先這樣打 然後這邊 Good Example 這邊 最後可能在前面吧 前面描述 「描述一下此情境 下述實際案例」",
+                        "start": 255.833
+                    },
+                    {
+                        "end": 315.266,
+                        "text": "「為何是個 Good Example 強調重點就好」 那這個部分呢 一樣 我們可以把它複製貼上到 Bad Example 裡面去 「描述一下下述資料案例」 「為何是一個 Bad Example 強調差異之處就好」 「或是違反之處就好」 「一個壞的示範如何違反此規則」 稍微修改一下內容描述",
+                        "start": 289.899
+                    },
+                    {
+                        "end": 346.25,
+                        "text": "接下來我們以終為始 我們就拿這個部位 這個檔案 我們開一個新的對話窗 跟 AI 講你的意圖 先做一下上下文的提示 跟 AI 說「上次我已經撰寫完了 這個 Skill」 「補我們現在這個 form-rule 的 Skill」 「這個 Skill 專門規範 Rules 底下的 Rule File 格式」 我以終為始「我先描述了一些要點在這」 「請你取個例子」",
+                        "start": 315.266
+                    },
+                    {
+                        "end": 378.633,
+                        "text": "「你認為一個 Rule file 可能會長怎樣」 好 然後選擇會推理的模型 然後叫它問我幾個問題好了 「你認為有哪些問題想問我」 好我們看一下它列的這些有的沒的 很好 它直接拿我們這個 Rule File 格式規範的 Case 它直接拿這個 Case 來去舉例 它認為這個 Case 可以怎麼寫 Rule 1, Good Example",
+                        "start": 346.25
+                    },
+                    {
+                        "end": 408.633,
+                        "text": "OK 然後 Good Example 裡面寫的是 它說下面這個是 Good Example 那我可能就要講說 「Example 應該要有」 「要被包在 Code Section 裡面 不然難以區分」 雖然這個產出的對話訊息有點亂掉了 但暫時還是聽得懂它的意思 我們來看一下 所以它想要先拿我這個檔案作為範例讓我看 那我當然是先說好",
+                        "start": 378.633
+                    },
+                    {
+                        "end": 441.316,
+                        "text": "好 有沒有看到它把 Rule File 的格式規範 把它寫出來了 我們來看一下這個版本 Preview 一下 所以 Rule File 裡面 我們有幾個規則呢 三個規則 三個規則 OK 好 第一個規則 每一條規則都要使用固定區塊順序 每條規則都必須以 Rule 為開頭 規則使用條列 每個規則都要包含 好的示範跟壞的示範 好的示範 壞的示範 裡面的補充描述 大概有些補充描述",
+                        "start": 410.6
+                    },
+                    {
+                        "end": 471.583,
+                        "text": "然後裡面放了一個 Good Example 好 這是一個 Rule File 的一個格式規範 可能長這個樣子 然後 Bad Example 它這邊舉一個爛例子 就是什麼樣的 Rule File 是不被允許的呢 就是它裡面的區塊寫的很破碎 它的壞例子真的是非常的壞 第二個 Rule 規則是 Example 示範本體必須要包在這個 這種叫 Code Block 裡面去 正式名稱可能叫 Fenced Code Block 所以 Good Example, Bad Example",
+                        "start": 441.316
+                    },
+                    {
+                        "end": 504.6,
+                        "text": "必須被要包在這種 Fenced Code Block 裡面 大致讀一下 OK 很好 它還有一些 Markdown 的細節 非常好 Good Example 非常好 然後它這個只有 Good Example 它這個有 Bad Example 嗎 「它這個 Rule 2 有 Bad Example 嗎」 是不是有點問題 有 Rule 2 本身有 Bad Example 我看懂了 是這個 Preview 的問題",
+                        "start": 471.583
+                    },
+                    {
+                        "end": 534.883,
+                        "text": "它這邊有一些 Markdown 的這個 Code section 有分外層跟內層 所以我們要這樣子看才對 跟著我 規則二 Example 本身的 Fenced Code Block 它的 Good Example 在這邊 有沒有看到 Good Example 你把它關起來之後 會跳到很下面的 Bad Example 它 Good Example 裡面 有用這個四層的 Code Block 如果你有四個撇號的 Code Block 它會包住只有三個撇號的 那 Preview 有點被這個亂到了",
+                        "start": 504.6
+                    },
+                    {
+                        "end": 566.616,
+                        "text": "所以這個 Good Example 其實是包含這幾行 這麼多行都是它的 Good Example OK 裡面有用到 Code Block 而且是有遵守 如果示範中要使用 Code Block 巢狀結構的話 最外層要有四個 四個撇號 它是在展示這一點 卻亂到了這個 Preview 好了 Bad Example 就是下面有一個壞的例子 這壞例子就是說 我們這個 規則在撰寫的時候 沒有善用 Code Block 所以 你的 Example 的區域在哪裡 是混淆不清的 OK 所以整體來說",
+                        "start": 534.883
+                    },
+                    {
+                        "end": 599.383,
+                        "text": "我們其實只有兩條規則 OK 那 Rule 的顆粒度 大家可以再細細品 如果你認為這個 Rule 1 它應該要拆成四條規則與否 你覺得呢 你覺得呢 基本上這邊都多少有一點小小的差異吧 如果你的選擇是 我們的 Rule 的顆粒度要變得更細 可以試試看 你可以試試看 那我的經驗呢 是告訴我說 這個部分呢 都有好有壞 那你把它全部放在一塊的話呢 那跟全部拆出去呢 有好有壞",
+                        "start": 566.616
+                    },
+                    {
+                        "end": 631.899,
+                        "text": "但整體來說是無傷大雅 整體來說是無傷大雅 因為對 Skill 的執行而言 它的品質呢 其實看的 還是按需載入 就是如何透過按需載入 來去讓你的 AI 的它的 Context 是必要精簡的 所以只要能夠達到按需載入的這個要求 你這個 Rule 的顆粒度 其實只是撰寫審美的一個問題 暫時只是審美問題 OK 那這個就交給你去評斷 可是我給你的知識 是我告訴你這個是審美的問題 它在 Skill 的 Performance 上面",
+                        "start": 599.383
+                    },
+                    {
+                        "end": 655.983,
+                        "text": "如果是 Rule 的規則的準撰寫的話 影響不大 影響最大的事情是 你的 Example 的內容不能錯 所以你一定要去人工 Review 這個 Example 的內容 如果它給的好例子跟壞例子是錯的 那 AI 確實就會有樣學樣 這個就會直接影響到你的 Skill 的 Performance 這樣理解齁 好 那它這個版本我覺得沒有問題",
+                        "start": 631.899
+                    },
+                    {
+                        "end": 688.116,
+                        "text": "我就跟它講 「這版本沒問題 接下來優化它」 「請提出五個 你認為應該要加以規範」 「好讓 Rule 的表現能夠更好的——」 「更好 更有彈性的提議」至少五個 好 我們來看 提出五個規範 第一個是說要補適用範圍 跟不適用範圍",
+                        "start": 655.983
+                    },
+                    {
+                        "end": 719.416,
+                        "text": "但我覺得沒差 因為 Skill 本來就是按需載入 在外面的部分就會講清楚 在 SOP 就應該要講清楚 什麼時候要遵守這個 Rule 所以第一個我不 Apply 我不要採納 第二個規則強度等級 它認為每一條 Rule 都應該要標示它是 Must, Should 還是 May 這個也許可以考慮哦 第三個是可檢查判準 它說每一條 Rule 最好有一段很短的",
+                        "start": 688.116
+                    },
+                    {
+                        "end": 749.866,
+                        "text": "如何判斷有沒有符合的一個基礎判準 這樣這個 Rule 不只可讀還可以驗證 但這個驗證方式 難道我們不能從 Good Example 和 Bad Example 直接去智能判斷出來嗎 這個是我想提出的質問 難道一定要多寫一個很重複的篇幅來講這件事情嗎 第四個是例外處理或是允許替代寫法 這幾個我暫時只想接納 第二個 「如果採納 2 你怎麼改寫格式」",
+                        "start": 719.416
+                    },
+                    {
+                        "end": 786.0,
+                        "text": "它說我們的 Rule 最上面可能要多加一個區塊 來描述 Must, Should 和 May 然後每一個 Rule 的裡面 再講清楚它的 Level 是什麼 很有趣很可愛 好那我再跟它講一件事情 「Rule File 可能會有很多」 「所以如果每個 Rule File 都要重複撰寫」 「這個 Rule Level Definition 那不是很煩嗎」 我現在就在實戰演練 我怎麼跟 AI 從無到有 去創造出一個 我認為還可以的一個 Skill",
+                        "start": 753.616
+                    },
+                    {
+                        "end": 817.383,
+                        "text": "你就得跟它溝通 然後 Brainstorming 腦力激盪一下 所以在過程你們在做的時候 也多享受在其中 科技的發展 前期都一定是慢 前期都一定是慢 不要求快 好了 它說「不用每個 Rule File 都重寫一次」 它的建議 它給我的改善提案是什麼 改成提升成全域共用規則 讓這個 Skill 先定義 之後所有 rules 底下的 Rule File 都直接引用 所以",
+                        "start": 786.0
+                    },
+                    {
+                        "end": 847.733,
+                        "text": "OK…… OK 所以它想要去汙染我的 SKILL.md 是吧 OK 我可能會跟它講說「你會怎麼改」 問它啦 問它說「你會怎麼改 SKILL.md」 「多一區塊嗎」 OK 它想這麼做 但是我會再給它一個提案說",
+                        "start": 817.383
+                    },
+                    {
+                        "end": 883.333,
+                        "text": "「那為何不把這部分 抽進去第二個 Rule File」 它想直接在 SKILL.md 裡面多上這一段 它想直接在 SKILL.md 裡面多上這一段 但這個一樣破壞掉我們的按需載入的這個原則 可不行 它認同說我們應該把 Rule 這個 強度的部分的這個規則 把它放進去第二個 Rule File 因此我們最後就會有兩個 Rule File 「採納 請執行 先寫 Rule File 就好」",
+                        "start": 847.733
+                    },
+                    {
+                        "end": 920.549,
+                        "text": "好它改完了 它做了一些修改 首先是兩個 Rule File 都出來了 一個是 Rule Level 的定義 有沒有看到 在 skill-form 裡面 它的這個 Rules 裡面就有 Rule Level 定義 還有 Rule File 的格式規範 點進來看 我們先來專心讀一下這個檔案 這個檔案的內容就長這個樣子 裡面有說 Rule 1, Rule 2, Rule 3 分別就是 Must, Should 和 May 分別可以用在哪些地方 Must 只能用於不可違反硬性規則",
+                        "start": 890.049
+                    },
+                    {
+                        "end": 950.616,
+                        "text": "Should 是應遵守 但容許具有理由的偏離的規則 就是如果你有理由的話 你就可以違反這個規則 你就要講清楚你的理由 May 是可選的替代或是延伸彈性的方案 OK 那裡面的 Example 呢 就稍微讀一讀 把它 Review 好 這個 Example 裡面不可以有錯 所以第一條規則呢 Must 的 Good Example 是什麼 是這個 是這個 這一條這一部分都是 Must",
+                        "start": 920.549
+                    },
+                    {
+                        "end": 980.983,
+                        "text": "OK 裡面的宣告呢就是一條規則 這規則它的 Level 是 Must 原因是什麼什麼 等等等 Good Example 是這樣 那 Bad Example 就是下面這個例子是不好的 這個只是純建議事項檔名可以更短 你卻跟我說這個規則是 Must 一定要遵守 那不就代表說我的檔名它必須更短嗎 它舉得這個例子很好吶 這個 Rule 呢 如果今天有個規則叫檔名可以更短 那它聽起來就不該是 Must Review 一下它的 Example 然後你就把這個 Code Review 把三條規則都讀完",
+                        "start": 950.616
+                    },
+                    {
+                        "end": 1012.116,
+                        "text": "然後你就 Review 完之後 然後你就 Review 完之後 這個改寫你就認了沒問題的 回到這個 Rule File 的格式規範 裡面也有做一些改寫 你就可以 Code Review 一下 裡面把這個 Rule Level 引進進來 把 Level 的概念把它影響範圍都把它改動一下 它多了一個第三條規則 Rule Level 這個欄位只填值 不在各個 Rule File 裡面重複定義語意",
+                        "start": 980.983
+                    },
+                    {
+                        "end": 1042.433,
+                        "text": "OK 這個是 Must 每一條規則只需要宣告自己的 Level 值 我們不用在當前 Rule File 重複解釋 Must, Should, May 的共同語意是什麼 這個是貼心提醒 雖然有點多餘這個規則 但我認為它這個貼心提醒好像 也是有幫助的 我就先把它留著 你看它這個 Bad Example 這個 Bad Example 它裡面舉的這個例子呢 就是它在 Example 裡面 竟然還重複強調說",
+                        "start": 1012.116
+                    },
+                    {
+                        "end": 1061.316,
+                        "text": "Should 的預設遵守 若不採用應該有明確理由 反正它就是花了一些篇幅 來在這個規則去描述說 你不應該到處都提醒 AI 這個 Level 的意思是什麼 所以看完了 Review 完了 就過關了 好那這樣子我們的這兩個 Rule File 就搞定了",
+                        "start": 1042.433
+                    },
+                    {
+                        "end": 1094.049,
+                        "text": "只剩下這個 SKILL.md 還沒有寫 那我們要怎麼寫這個 SKILL.md 呢 那很簡單我們就是直接呼叫 skill-form 你從 Form 的 SOP 開始打起的目的 就是為了讓你的科技點 在發展的時候的下一個步驟 可以直接 Reuse 你上個步驟的產出嘛 欸 就是這麼好玩 所以我就使用 /skill-form-sop 然後跟它說「幫我撰寫這個 SKILL.md 吧」 好你看 它已經寫完囉",
+                        "start": 1061.316
+                    },
+                    {
+                        "end": 1124.516,
+                        "text": "非常簡單的一個 SOP 就出來了 符合 Rule 的這個 Skill 第一階段就是讀取這兩個 Rule File 你看這個 SOP 的第一階段 就會講得很清楚 AI 只能夠在什麼步驟 去按需載入 按需去閱讀另外一個規則檔案 然後讀什麼內容 基本上都有把它講清楚 所以第一階段就是載入這個定義 然後第二階段呢 則是去思考該如何去幫忙寫 Rule 所以第二階段就開始有些 Thinking 依照這個定義啊 依照這個格式規範啊",
+                        "start": 1094.049
+                    },
+                    {
+                        "end": 1155.566,
+                        "text": "然後去思考東思考西 然後規劃啊 Example 等等的 第三階段則是套用開始寫 File 有沒有 我去 Write 依照這些規則去修改 Rule File 的內容 然後最後則是再讀一次 看看每一條規則是不是都有合法的 是不是都有遵守規範 如果沒有符合規範的話 就要立即修正 最後的這種步驟 通常把它稱之為是一個品質的閘門 品質檢驗的閘門 英文就是 Quality Gate",
+                        "start": 1124.516
+                    },
+                    {
+                        "end": 1187.016,
+                        "text": "Quality Gate 很常就在描述這個步驟 回頭去看剛剛產出的東西 它必須要遵守規範這樣子 那現在呢我想要做個優化 因為如果你去看這個 SOP 啊 它其實有一點點在浪費一些篇幅 它其實有一點點在浪費一些篇幅 它其實有一點點在浪費一些篇幅 在描述說 應該要依照這兩個 Rule File 來去做一堆事情 其實是沒有必要的你知道嗎 就是…… 我們 SOP 應該精簡我上面都讀過了 那麼就是依照這個規範 下面就是直接承襲上述規範 然後來去做事就好",
+                        "start": 1155.566
+                    },
+                    {
+                        "end": 1218.15,
+                        "text": "你不用一直強調說 我這個步驟是要 又依照什麼東西 依照什麼東西去撰寫 其實是有點繁複的 不該這樣子寫 我跟 AI 講 好我跟它講了 我說「SOP 內容繁複」 「內容應該要精簡 必須要能夠按需載入 Rule File」 「就只有在 該讀這個 Rule File 的步驟中」 「才會提名這個檔案」 「這是為了把按需載入做到最佳化」 「如果每一步都提 Rule File」 「那 AI 就會混亂 到底哪一步才需要去讀取」 才需要去 Lazy",
+                        "start": 1187.016
+                    },
+                    {
+                        "end": 1250.15,
+                        "text": "「Lazy Load Rule File」 好我請 AI 詮釋問題 並且修正這個 SKILL.md 送出 它稍微改了一下 但是我還是很不買單 我要繼續再跟它修正 你看它這邊講的都有點像是說 我前面好像直接在句子裡面 直接去描述 If-Else 直接去描述說 我只需要在判斷 Level 的時候 去讀取這個檔案 但這個有點像是說 這個步驟到底要幹嘛 這個步驟只是在描述一個 Meta 嗎",
+                        "start": 1218.15
+                    },
+                    {
+                        "end": 1281.7,
+                        "text": "它只是在描述一個擴充規則嗎 不對 這個 SOP 就是要精簡 OK 所以我跟 AI 講 「不對你這樣寫是錯的」 「請問你 Phase 1 的第 3 步第 4 步」 「這邊是在寫什麼 這個叫做前情提要嗎」 「這個叫預先 說明一些規則嗎」 「不對 SOP 就是要精簡」 「你是不是可以在撰寫的時候」 「或者就是在 Think 的時候」 「好比說我們直接直接把 Phase 1 的 2, 3, 4 全部都刪掉」 「好比說我們直接直接把 Phase 1 的 2, 3, 4 全部都刪掉」 「然後我們直接進入到 Phase 2 的第一步的 Think 裡面」",
+                        "start": 1250.15
+                    },
+                    {
+                        "end": 1312.033,
+                        "text": "「就可以去說你在思考的時候」 「直接去讀取那兩個規則檔案」 「讀取為什麼讀取 然後要思考什麼」 「能不能就是在真的需要用到的時候」 「再去讀那個規則檔案就好了」 「SOP 就變得很精簡了」 「沒有一大堆的前情提要了」 「你前情提要很多的 SOP」 「很多步驟不就會讓 AI 混亂說」 「我這個步驟到底有沒有要做任何的動作」 「我這個步驟到底有沒有要做任何的動作」 這樣子去跟 AI 去講話 給它 Feedback 那同時也是給大家 Feedback 就是你的 SOP 應該要有這個特性",
+                        "start": 1281.7
+                    },
+                    {
+                        "end": 1339.683,
+                        "text": "就是你的 SOP 應該要有這個特性 所以你要能夠知道說 為什麼第三步跟第四步 寫得是很爛的 看到這一步根本不知道要做什麼 只是意識到這一件事情而已 AI 看起來是懂了 然後它把這兩者都放進 Phase 1 跟 Phase 2 裡面 然後把它改成說只有兩個階段 非常的清楚簡單 欸 這樣我就喜歡了 好但是下一件事情就是呢",
+                        "start": 1312.033
+                    },
+                    {
+                        "end": 1371.616,
+                        "text": "我們不應該每次遇到這個問題的時候就去改 SOP 我們應該讓這個 SOP 這個 Skill 它自己呢 是能夠幫忙去維護好 SOP 的品質的 所以我們得跟 AI 這樣子講 「請將上述的這幾條我列出的規則 盤一下」 「如果我想要使用我們剛剛自己發明出來的」 「這個 /form-rule 的 Skill」 「來去優化我們的 SOP 多一個 Rule File」",
+                        "start": 1339.683
+                    },
+                    {
+                        "end": 1403.2,
+                        "text": "「讓 SOP Skill 能夠幫忙把關就好了」 「你怎麼提案」 好 AI 回覆了 它說我們現在的 skill-form-sop 已經做到一些事情 但是唯獨沒有做到 我剛剛說的這幾項 OK 不要出現前情提要性的 Step 不要預先把規則檔讀一輪 規則檔只必要的時候被點名 Lazy Load 發生判斷時 不是全部先 Preload",
+                        "start": 1371.616
+                    },
+                    {
+                        "end": 1434.283,
+                        "text": "SOP 優先追求最短可執行路徑 OK 所以它的提案是 在 SOP 格式規範 這個 原本已經有 Rule File 了 應該就只繼續管格式骨架 它提案應該要再加新的一份 Rule File 專門管精簡與按需載入 OK 非常好 那我就跟它說「Adopt 做吧」 非常期待 你們的這個 form-sop 應該也是要補上這些規則的",
+                        "start": 1403.2
+                    },
+                    {
+                        "end": 1464.549,
+                        "text": "跟 AI 溝通一下吧 它開始在我們這個 skill-form-sop 底下的 Rules 底下多一個新的規則 就是來做 SOP 的精簡與按需載入的 點進去 然後我們就來閱讀它了 裡面總共幾個 Rule 呢 總共有三條 Rules 第一條是 SOP Step 必須對應真實動作 Must 做得非常好 Good Example, OK",
+                        "start": 1434.283
+                    },
+                    {
+                        "end": 1496.966,
+                        "text": "OK 好 講得很好 那 Bad Example 是什麼呢 這個例子是壞的 第二步跟第三步都像是前情提要 沒有明確要求當下執行任何動作 欸 非常好講得很好 喜歡 第二條規則 規則檔案只在實際讀取的 Step 中被點名 Must 好 Good Example 用到的時候才點名 那 Bad Example—— OK 反覆地去點名它 不知道什麼時候才要讀取它 哦 非常好 模糊了真正的載入時機 太讚了",
+                        "start": 1464.549
+                    },
+                    {
+                        "end": 1528.849,
+                        "text": "第三個 Rule 預設採最短可執行流程 Should 這個是應該儘可能做到 OK 看一下 好 不要為了完整說明背景 而加入不一定會執行的步驟 非常好 講得真的很好 當精簡與清楚衝突的時候 保留必要的清楚度 但仍應避免把可延後的載入動作提前 要避免把一些動作提前 你該做的動作 就放在它應該在的位置 不要提前一大堆動作",
+                        "start": 1496.966
+                    },
+                    {
+                        "end": 1554.433,
+                        "text": "流程就是要每一步都在正確的階段發生 Good Example 就是一個正常的 SOP 我們先看 Bad Example 所以 Bad Example 呢 這有點像是什麼 前面先讀一堆東西是吧 然後最後再 Think 依上面所有規則整理 SOP 這個是很爛的 這個確實是爛 但是我這個 Example 組 我可能會想要優化一下",
+                        "start": 1528.849
+                    },
+                    {
+                        "end": 1586.566,
+                        "text": "我可能是稍微優化了 「Good Example 能不能作為 Bad Example 的改良版」 「Good Example 能不能作為 Bad Example 的改良版」 「目前從這個 Good Example 中沒有看見——」 「沒有看見它與 Bad Example 有對照」 這個小改良啦 我這邊就示範說 你有些時候 你可以狠心一點 去請 AI 去改那個 Examples 你不要有點惰性 你知道嗎就是 你看到 Good and Bad 它都幫你寫得 好像已經有 60-70% 的完整度了 你就突然間覺得就是 Good Enough",
+                        "start": 1554.433
+                    },
+                    {
+                        "end": 1619.633,
+                        "text": "然後就 見好就收 但其實就是你一定有一些想法了 你試著想一想 試著想一想 我覺得這兩個就不是對照組 你下面有讀這兩個檔案 那上面這個 Good Example 卻不去讀檔案了 那這個 Good Example 它就沒有是一個對照組 所以 Good Example 裡面要讀檔案 我就會跟它講說 你這個 Good Example 有點爛 繼續修 我覺得這種步驟都很爛了 就是你的 SOP 裡面 是先請 AI 去 Read 這個規則 我就不喜歡這種預先載入規則 我認為它就是應該在真的要 Write 的時候才去讀規則",
+                        "start": 1586.566
+                    },
+                    {
+                        "end": 1653.866,
+                        "text": "就是一個步驟把很多東西講完 我要開始寫這個東西了 我寫的時候我請 AI 說 「你寫的時候去看這個檔案 瞭解才去寫」 「你想的時候先去看這個檔案 然後再去想」 而不是說我前面步驟 都是有一個特別的 Phase 就是用來讀東西的 用來閱讀的 Phase 很討厭 「超級不應該要有這種專門在 Read 的 Phase」 好 它說會加上第四條 Rule",
+                        "start": 1619.633
+                    },
+                    {
+                        "end": 1684.516,
+                        "text": "不應該為讀取規則而設定專門的 Phase 好 然後把 Example 改對了嘛 它把那個 Good Example 改成就只有四個步驟 對嘛 它把那個 Good Example 改成就只有四個步驟 對嘛 只有在用到它的時候呢 然後才會提到它嘛 而不是先在那邊讀東讀西嘛 「Go, Adopt 採納」 太好了 它說它會把 Rule 1 到 3 的 Good Example",
+                        "start": 1653.866
+                    },
+                    {
+                        "end": 1715.7,
+                        "text": "都改成一致的 每一個 Good Example 它裡面的撰寫方式 都應該要完全遵守 所有的 SOP 的規則 真是太好了 好稍微 Review 一下 OK 它把那種完全在讀取的 Phase 都拿掉了 我非常喜歡 SOP 就是要精簡 SOP 就是一大堆的指令 而不是一堆指令要求你去讀書",
+                        "start": 1684.516
+                    },
+                    {
+                        "end": 1751.2,
+                        "text": "指令當然是拿來做事的啊 書本跟參考手冊 只是在做那個事情的時候 應該要參考的東西而已 OK 好 Bad Example 沒錯這就是 Bad Example 非常好 非常喜歡 「最後呢 請你根據這個 Root 資料夾」 「裡面所有的 Rule File 去優化這個 SKILL.md」 這裡面可能還可以精簡吧 我就問問它的意見",
+                        "start": 1715.7
+                    },
+                    {
+                        "end": 1766.2,
+                        "text": "好 它把載入規則與目標這個 Phase 呢 直接把它刪掉了 沒有錯的啦 OK 是精簡許多啦比較精簡啦 OK 那最後我們再來看看我們剛剛呢",
+                        "start": 1755.516
+                    },
+                    {
+                        "end": 1797.983,
+                        "text": "可能之前的單元產出的這個 plan-with-class-diagram 裡面呢 這一坨能不能夠再精簡啊 好使用此規範 也優化這個 Skill 我直接把這個直接挪過來 這個檔案挪過來 叫它去優化它 好 它最後收斂成就只有這些 只有這些 好 那我們還可以再做一件事情 剛剛不是說過了嗎 之前就說過 每一個 Skill 產出來之後 我都習慣使用比較快 比較簡單的模型來去做測試",
+                        "start": 1766.2
+                    },
+                    {
+                        "end": 1828.266,
+                        "text": "那這個 skill-form-rule 呢 看起來是寫完了 看起來是寫完了 我們來用它來去做測試 OK 所以要測試的話 就開一個新的 session 不要做 Context 的汙染 避免 Context 的汙染 「現在來抽 Rule 請判斷一下這個 SKILL.md」 「裡面哪些步驟可能會涉及更深的規則 值得去 Refine」 就是所謂的精煉 就是去展開細節 「展開規則 提案試試」",
+                        "start": 1797.983
+                    },
+                    {
+                        "end": 1858.716,
+                        "text": "OK 要抽 Rule 更深的規則 「規則的檔案之格式請參考（skill-form-rule）」 這樣送出 它提出說有幾個步驟很適合 可以去抽取 Rule 的檔案出來 然後分別是這個 1-1, 1-2 然後 2-1 還有 2-3 其他提議都有點過於歇斯底里了",
+                        "start": 1828.266
+                    },
+                    {
+                        "end": 1892.183,
+                        "text": "我們要是那麼多步驟都抽規則 那我們規則不就超級多嗎 它也提議 3-4 像 Read 的這種我都不喜歡抽 Read 就是 Read 就讀嘛 讀的話有什麼必要再去展開更細部的規則 其實沒有必要展開太多 重點是 Write 我寫的東西到底要遵守什麼樣的規範 那你未來規格驅動開發 你規格的規範是什麼 對吧 你如果 Write 是寫程式碼 那寫程式的規範是什麼 所以呢我會同意的是 2-1 吧 OK 抽 2-1 提案一下",
+                        "start": 1858.716
+                    },
+                    {
+                        "end": 1913.333,
+                        "text": "好 它直接提議要寫什麼樣的檔案內容 那我就讓它「直接寫檔」 使用這個 /form-rule 這個 skill 只是再三強調 請它直接寫檔 好 它在 plan-with-class-diagram",
+                        "start": 1895.616
+                    },
+                    {
+                        "end": 1944.833,
+                        "text": "開出了第一個 Rule File 快速的去讀它的話看一下 Outline VSCode 的 Outline 功能 只能從 Markdown 去看 好了這三條規則呢 你也可以這樣直接 Collapse OK 所以說有三個規則 類別圖提案必須使用 Mermaid Class Diagram 那是廢話但很重要 類別圖提案必須呈現最小必要設計資訊 提案應該聚焦設計決策 不塞入實作雜訊 OK 可能長這樣子 那我們剛剛的這個",
+                        "start": 1913.333
+                    },
+                    {
+                        "end": 1976.383,
+                        "text": "skill-form-rule 的這個使用結果 skill-form-rule 的這個使用結果 其實就還蠻不錯的 因為你看它確實就把每一條規則都寫得很清楚 比如說它的 Level 是 Must 然後裡面敘述是什麼 然後 Example 是什麼 像這個就是 Mermaid 的格式 Mermaid 的格式 那 Bad Example 又是什麼呢 也有講得蠻清楚的 Bad Example 是說 這個是 Flowchart 流程圖 這個不是使用 Mermaid 的 Class Diagram 所以這是錯誤的示範 第二條規則的話呢 要呈現最小必要設計資訊",
+                        "start": 1944.833
+                    },
+                    {
+                        "end": 2009.016,
+                        "text": "最小設計必要資訊是這些 Good Example 那 Bad Example 就是 什麼設計資訊都沒有講 就三個 Class 而已 我哪知道要怎麼實作 不錯 講得也很好 Rule 3 類別圖提案應該聚焦設計決策 不塞入實作雜訊 這個先看 Bad Example 好了 塞入實作雜訊 就是把一大堆實作細節 全部塞進圖中 反而模糊主要設計判斷點 這就很重要了 這個就很有幫助 你看我一個 Auth Service 裡面 我連私有變數 這個叫 Private Member 私有的成員 我全部都把它列出來",
+                        "start": 1976.383
+                    },
+                    {
+                        "end": 2029.0,
+                        "text": "Getter, Setter 我全部列出來 這不是很雜訊嗎 我一個 Class 裡面的內容 不應該全塞嗎 我應該只放入重點 Auth Service 就是登錄 跟 Refresh 我的身份權杖 那這挺好的 這個 Example 非常好 如果你未來對這個 Example 有意見 就直接改這個 Example 好了 所以我們這一次的 form 也算是成功了",
+                        "start": 2009.016
+                    },
+                    {
+                        "end": 2061.433,
+                        "text": "而且我們不只是做出了這個 skill-form-rule 而且我們不只是做出了這個 skill-form-rule 我們在過程中也找到 SOP Skill 它應該改善的地方 而且最優雅的事情是 我們在改善 SOP 的過程 還去使用我們剛剛做出來的這個 Rule 的 Form 呢 來去寫了它的一個 Rule File 來去精簡 SOP 再拿這個精簡過的 SOP 再去套用它 優化我們的 Rule 的 SOP 優化我們的 Rule 的 SOP 確定 SOP 精簡之後 就確定這個 Skill 可能就完成了 再拿它 去測試這個 plan-with-class-diagram 的 Rule File",
+                        "start": 2029.0
+                    },
+                    {
+                        "end": 2069.083,
+                        "text": "確定這個 Rule File 裡面的格式是我們要的 並且它可能也大幅優化了這個 Skill 好那這就是這個單元啦",
+                        "start": 2061.433
+                    }
+                ]
+            }
+        }
+    ]
+}

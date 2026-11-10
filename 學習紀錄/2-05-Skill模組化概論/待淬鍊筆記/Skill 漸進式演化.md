@@ -6,7 +6,7 @@ Skill 可以從一份簡單的 SOP 開始，隨組織流程與實際需求逐步
 
 ## 三個演化層級
 
-![Skill 演化總覽：LV0 單一 SOP、LV1 抽出資源、LV2 拆成多個 Skill 並按需載入](./skill%20可不可進化!-assets/image%2015.png)
+![Skill 演化總覽：LV0 單一 SOP、LV1 抽出資源、LV2 拆成多個 Skill 並按需載入](../../../筆記/assets/c2m5-0/skill%20可不可進化!-assets/image%2015.png)
 
 | 層級 | 結構 | 何時採用 |
 | --- | --- | --- |
@@ -22,37 +22,37 @@ LV1 的資源依需要增加，不必一開始全部建立。LV2 則讓一個 Sk
 
 一開始只在「繪製類別圖」Skill 中放一份 `SKILL.md`，描述主流程。先保持簡單，隨導入組織後的需求再補充。
 
-![繪製類別圖 Skill 的起點：只有 SKILL.md](./skill%20可不可進化!-assets/image%208.png)
+![繪製類別圖 Skill 的起點：只有 SKILL.md](../../../筆記/assets/c2m5-0/skill%20可不可進化!-assets/image%208.png)
 
 ### 2. 規則複雜後，抽出 rules
 
 當流程描述無法簡單涵蓋所有要點，將類別顆粒度要求抽到 `rules/類別顆粒度.md`，由相關步驟引用。
 
-![從 SOP 抽出類別顆粒度規則](./skill%20可不可進化!-assets/image%209.png)
+![從 SOP 抽出類別顆粒度規則](../../../筆記/assets/c2m5-0/skill%20可不可進化!-assets/image%209.png)
 
 ### 3. 需要固定產物格式時，抽出 templates
 
 需要生成 Mermaid 類別圖時，將產物格式抽到 `templates/類別圖mermaid格式.md`，讓生成步驟按需參考。
 
-![加入 Mermaid 類別圖樣板](./skill%20可不可進化!-assets/image%2010.png)
+![加入 Mermaid 類別圖樣板](../../../筆記/assets/c2m5-0/skill%20可不可進化!-assets/image%2010.png)
 
 ### 4. 步驟適合加速時，加入 scripts
 
 程式類別的靜態分析可由腳本處理，因此加入 `scripts/程式類別靜態分析.py`，讓流程在對應步驟執行。
 
-![加入程式類別靜態分析腳本](./skill%20可不可進化!-assets/image%2011.png)
+![加入程式類別靜態分析腳本](../../../筆記/assets/c2m5-0/skill%20可不可進化!-assets/image%2011.png)
 
 ### 5. 步驟發展成複雜流程時，抽出另一個 Skill
 
 當靜態分析這個步驟越來越複雜，將它獨立成「對程式做靜態分析」Skill，保留「繪製類別圖」Skill 處理繪圖工作。
 
-![拆分後的兩個 Skill：靜態分析有自己的 SOP 與腳本，繪製類別圖保留規則、樣板與 SOP](./skill%20可不可進化!-assets/image%2013.png)
+![拆分後的兩個 Skill：靜態分析有自己的 SOP 與腳本，繪製類別圖保留規則、樣板與 SOP](../../../筆記/assets/c2m5-0/skill%20可不可進化!-assets/image%2013.png)
 
 拆分後，各 Skill 都有自己的 `SKILL.md` 和主流程；繪圖流程在需要時使用靜態分析 Skill。完整流程集中於各自的入口，其他資源分別保存規則、樣板與程式碼。
 
 ## 為什麼要讓人的理解一起成長
 
-![分開累積靜態分析、類別顆粒度與 Mermaid 格式的 know-how，讓人更容易讀懂並維護](./skill%20可不可進化!-assets/image%2014.png)
+![分開累積靜態分析、類別顆粒度與 Mermaid 格式的 know-how，讓人更容易讀懂並維護](../../../筆記/assets/c2m5-0/skill%20可不可進化!-assets/image%2014.png)
 
 拆分後，靜態分析、類別顆粒度與 Mermaid 格式的 know-how 可以各自累積。發現某部分有問題時，也更容易定位該改的檔案。
 
@@ -67,5 +67,5 @@ LV1 的資源依需要增加，不必一開始全部建立。LV2 則讓一個 Sk
 ## 來源
 
 - 原筆記：〈skill 可不可進化?〉，原檔名為 `skill 可不可進化!.md`。
-- [課程逐字稿：Skill 模組化概論](../../逐字稿/c2m5-0_Skill%20模組化概論%20—%20更好維護、理解和強化執行的%20Skill%20組織方法.txt)。
-- 影片截圖：`skill 可不可進化!-assets/` 中的 `image 8.png` 至 `image 11.png`、`image 13.png` 至 `image 15.png`。
+- [課程逐字稿：Skill 模組化概論](../來源/c2m5-0_Skill%20模組化概論%20—%20更好維護、理解和強化執行的%20Skill%20組織方法.txt)。
+- 影片截圖：`../../../筆記/assets/c2m5-0/skill 可不可進化!-assets/` 中的 `image 8.png` 至 `image 11.png`、`image 13.png` 至 `image 15.png`。

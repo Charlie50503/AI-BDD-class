@@ -6,7 +6,7 @@ SOP 是 Skill 的主流程。本課程將它集中放在 `SKILL.md`，用階段�
 
 ## 先定義主流程，再拆步驟
 
-![主流程由步驟串成；較大的步驟可展開成子步驟，並對應所需規則](./檢查%20skill%20方法-assets/image%201.png)
+![主流程由步驟串成；較大的步驟可展開成子步驟，並對應所需規則](../../../筆記/assets/c2m5-0/檢查%20skill%20方法-assets/image%201.png)
 
 1. 先列出完成任務需要經過的主流程。
 2. 若某個步驟包含多個動作，可將它視為一個階段（Phase），再拆成子步驟。
@@ -29,7 +29,7 @@ SOP 是 Skill 的主流程。本課程將它集中放在 `SKILL.md`，用階段�
 
 ## 課程範例：繪製類別圖的 SOP
 
-![類別圖 SOP 範例：從範圍探索、產物規劃，到圖稿確認與實作授權](./檢查%20skill%20方法-assets/image%205.png)
+![類別圖 SOP 範例：從範圍探索、產物規劃，到圖稿確認與實作授權](../../../筆記/assets/c2m5-0/檢查%20skill%20方法-assets/image%205.png)
 
 截圖中的主流程分成四個階段：
 
@@ -46,7 +46,7 @@ SOP 是 Skill 的主流程。本課程將它集中放在 `SKILL.md`，用階段�
 
 在本課程的寫法中，SOP 以各階段的主敘述和步驟為主，避免塞入打斷流程的大摘要、小提示或重複背景說明。衍生細節再依需求抽出。
 
-![SKILL.md 保存流程；rules 說明執行要求，templates 說明產物格式，scripts 提供腳本](./檢查%20skill%20方法-assets/image%206.png)
+![SKILL.md 保存流程；rules 說明執行要求，templates 說明產物格式，scripts 提供腳本](../../../筆記/assets/c2m5-0/檢查%20skill%20方法-assets/image%206.png)
 
 需要加速某一步時，可以將實作腳本放在 `scripts/`，並由 SOP 指出何時執行。完整分工見 [Skill 模組化](./Skill%20模組化.md)。
 
@@ -55,5 +55,5 @@ SOP 是 Skill 的主流程。本課程將它集中放在 `SKILL.md`，用階段�
 ## 來源
 
 - 原筆記：〈檢查 skill 方法〉中的主流程、SOP 範例與步驟粒度段落。
-- [課程逐字稿：Skill 模組化概論](../../逐字稿/c2m5-0_Skill%20模組化概論%20—%20更好維護、理解和強化執行的%20Skill%20組織方法.txt)。
-- 影片截圖：`檢查 skill 方法-assets/image 1.png`、`image 5.png`、`image 6.png`。
+- [課程逐字稿：Skill 模組化概論](../來源/c2m5-0_Skill%20模組化概論%20—%20更好維護、理解和強化執行的%20Skill%20組織方法.txt)。
+- 影片截圖：`../../../筆記/assets/c2m5-0/檢查 skill 方法-assets/image 1.png`、`image 5.png`、`image 6.png`。
